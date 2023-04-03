@@ -1,0 +1,18 @@
+{
+  "name": "magic-example",
+  "version": "1.0.0",
+  "description": "An example of using AI functions for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Adastra",
+  "license": "MIT",
+  "devDependencies": {
+    "@jumploops/magic": "^0.0.5",
+    "ts-node": "^10.9.1",
+    "ts-patch": "^2.1.0",
+    "ttypescript": "^1.5.15",
+    "typescript": "^4.8.2"
+  }
+}
