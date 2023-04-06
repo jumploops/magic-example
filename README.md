@@ -1,4 +1,4 @@
-# Typescript AI Presidency Project
+# AI Functions in Typescript - Simple Example
 
 This example Typescript project uses [@jumploops/magic](https://github.com/jumploops/magic) to simulate the use of AI functions on a simple set of presidential data.
 
