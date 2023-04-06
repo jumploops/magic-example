@@ -40,8 +40,6 @@ Were George Washington and John Adams contemporaries? true
 Were George Washington and Thomas Jefferson born in the same state? true
 ```
 
-Note: Uncomment the lines related to `fetchTwoRandomPresidents` function in the `president.ts` file to try fetching two random presidents using the AI-powered function.
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

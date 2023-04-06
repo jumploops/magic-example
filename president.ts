@@ -81,9 +81,10 @@ async function main() {
   console.log(`Were ${president1.name} and ${president5.name} born in the same state? ${sameBirthState(president1, president5)}`);
 
   /*
+   * TODO ajv is running into an issue with this JSON schema... investigate other validators
   const [president3, president4] = await fetchTwoRandomPresidents();
-  console.log(`Were ${president3.name} and ${president4.name} born in the same state? ${sameBirthState(president1, president2)}`);
-  console.log(`Were ${president3.name} and ${president4.name} contemporaries? ${contemporaries(president1, president2)}`);
+  console.log(`Were ${president3.name} and ${president4.name} born in the same state? ${sameBirthState(president3, president4)}`);
+  console.log(`Were ${president3.name} and ${president4.name} contemporaries? ${contemporaries(president3, president4)}`);
   */
 }
 
