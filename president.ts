@@ -58,8 +58,8 @@ async function fetchPresidentInfo(id: number): Promise<President> {
 
 // @ts-ignore
 // @magic
-async function fetchOneRandomPresidents(): Promise<President> {
-  // Return one random president 
+async function fetchOneRandomPresident(): Promise<President> {
+  // Return one random president, not George Washington, John Adamns, or Abraham Lincoln
 }
 
 // @ts-ignore
@@ -76,9 +76,9 @@ async function main() {
   console.log(`Were ${president1.name} and ${president2.name} born in the same state? ${sameBirthState(president1, president2)}`);
   console.log(`Were ${president1.name} and ${president2.name} contemporaries? ${contemporaries(president1, president2)}`);
 
-  const president5 = await fetchOneRandomPresidents();
+  const president5 = await fetchOneRandomPresident();
   console.log(president5);
-  console.log(`Were ${president1.name} and ${president5.name} born in the same state? ${sameBirthState(president1, president2)}`);
+  console.log(`Were ${president1.name} and ${president5.name} born in the same state? ${sameBirthState(president1, president5)}`);
 
   /*
   const [president3, president4] = await fetchTwoRandomPresidents();
