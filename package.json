@@ -9,7 +9,7 @@
   "author": "Adam Adastra",
   "license": "MIT",
   "devDependencies": {
-    "@jumploops/magic": "^0.0.5",
+    "@jumploops/magic": "^0.0.6",
     "ts-node": "^10.9.1",
     "ts-patch": "^2.1.0",
     "ttypescript": "^1.5.15",

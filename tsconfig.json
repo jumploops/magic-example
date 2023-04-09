@@ -7,8 +7,7 @@
     "outDir": "./dist",
     "plugins": [
       {
-        "transform": "@jumploops/magic",
-        "type": "program"
+        "transform": "@jumploops/magic"
       }
     ]
   },
